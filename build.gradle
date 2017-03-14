@@ -24,5 +24,10 @@ dependencies {
     }
 }
 
-group = 'se.roger'
-mainClassName = 'App'
+jar {
+  manifest {
+    attributes(
+      'Main-Class': 'se.roger.App'
+    )
+  }
+}
