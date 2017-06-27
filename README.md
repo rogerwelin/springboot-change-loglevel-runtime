@@ -1,7 +1,7 @@
 # How to change log level in Springboot applications runtime
 
 ## Intro
-This simple example shows how easy it is to change log level while your applications is running so it saves you the hassle of restart it just to change to DEBUG or TRACE.
+This simple example shows how easy it is to change log level while your applications is running so it saves you the hassle of restart it just to change to DEBUG or TRACE. More detailed information can be [found here](https://rogerwelin.github.io/java/springboot/logback/2017/03/11/change-loglevel-at-runtime-springboot.html)
 
 
 ## Building
@@ -27,3 +27,4 @@ We can then verify that we are getting DEBUG logging by hitting the ping endpoin
 ```bash
 curl -XGET localhost:8080/ping
 ```
+
